@@ -15,7 +15,7 @@ function renderHTML(){
         } = item;
         str+=`
         <li>
-            <h2>${title}</h2>
+            // <h2>${title}</h2>
             <img src="${PostURL+poster_path}" alt="" />
             <p>簡介${overview}</p>
             <p>發布日期${release_date}</p>
